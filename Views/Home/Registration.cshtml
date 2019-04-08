@@ -1,0 +1,115 @@
+
+@model bankAccount.Models.User
+<html>
+
+    <head>
+        <meta charset='utf-8'>
+        <title>Portfolio</title>
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <style>
+            body{
+                /* background:linear-gradient(370deg,#BD3F32,#CB356B); */
+                /* background:linear-gradient(370deg,#2a0845,#6441A5); */
+                 background:linear-gradient(370deg, #BBD2C5,#536976);
+                height:900px;
+            }
+            .navSub{
+                display: inline-block;
+               
+                text-align: justify;
+            }
+            #container{
+                width:900px;
+                padding:50px;
+                background:linear-gradient(370deg,ghostwhite,whitesmoke);
+         
+                margin-top:20px;
+                border-radius:8px;
+                /* box-shadow: 5px 14px 27px 19px lightpink inset; */
+                
+            }
+           
+
+            #nav{
+                color:white;
+            }
+
+
+            span{
+                text-decoration: underline;
+                font-weight: bold;
+            }
+
+            .sub{
+                /* box-shadow: -1px -3px 27px 5px rgb(189, 189, 189) inset; */
+                border-radius:8px;
+                border:1px solid black;
+                min-width:150px;
+                max-width: 200px;
+                text-align: left;
+                color:black;
+                padding:10px;
+                margin:5px;
+            }
+            form{
+                width:300px;
+                margin-left:300px;
+            }
+            h1{
+                display:inline-block;
+            
+            }
+            #nav a{
+                margin-left:500px;
+            }
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+        $(document).ready(function(){
+            $("#feed").click(function(){
+                $("#full").load("demo_test.txt");
+            });
+        });
+        </script>
+    </head>
+    <body>
+        <div id = "nav">
+
+            <h1>Register to this site!</h1>
+
+            <a href="login"><button class="btn btn-primary">Sign In</button></a>
+
+        </div>
+        <div id = "container">
+            
+            <form asp-action="CreateAccount" asp-controller="Home">
+                <div class="form-group">
+                <span asp-validation-for="FName"></span>
+                <label>Firsts Name: </label>
+                <input asp-for="FName" class="form-control"><br>
+
+                <span asp-validation-for="LName"></span>
+                <label>Last Name: </label>
+                <input asp-for="LName" class="form-control"><br>
+
+                <span asp-validation-for="Email"></span>                
+                <label>Email: </label>
+                <input asp-for="Email" class="form-control"><br>
+                
+                <span asp-validation-for="Password"></span>
+                <label>Password: </label>
+                <input asp-for="Password" class="form-control"><br>
+
+                <label>Confirm Password: </label>
+                <input asp-for="PasswordConfirm" class="form-control"><br>
+            
+                <button type="submit" class="btn btn-primary">Sign up now</button>
+                </div>
+            </form>
+            </div>
+            
+
+
+    </body>
+
+</html>

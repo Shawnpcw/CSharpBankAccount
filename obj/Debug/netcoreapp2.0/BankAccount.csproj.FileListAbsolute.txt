@@ -1,0 +1,11 @@
+C:\Users\shawn\Desktop\Projects\c#\entityframe\BankAccount\bin\Debug\netcoreapp2.0\BankAccount.deps.json
+C:\Users\shawn\Desktop\Projects\c#\entityframe\BankAccount\bin\Debug\netcoreapp2.0\BankAccount.runtimeconfig.json
+C:\Users\shawn\Desktop\Projects\c#\entityframe\BankAccount\bin\Debug\netcoreapp2.0\BankAccount.runtimeconfig.dev.json
+C:\Users\shawn\Desktop\Projects\c#\entityframe\BankAccount\bin\Debug\netcoreapp2.0\BankAccount.dll
+C:\Users\shawn\Desktop\Projects\c#\entityframe\BankAccount\bin\Debug\netcoreapp2.0\BankAccount.pdb
+C:\Users\shawn\Desktop\Projects\c#\entityframe\BankAccount\obj\Debug\netcoreapp2.0\BankAccount.csproj.CoreCompileInputs.cache
+C:\Users\shawn\Desktop\Projects\c#\entityframe\BankAccount\obj\Debug\netcoreapp2.0\BankAccount.AssemblyInfoInputs.cache
+C:\Users\shawn\Desktop\Projects\c#\entityframe\BankAccount\obj\Debug\netcoreapp2.0\BankAccount.AssemblyInfo.cs
+C:\Users\shawn\Desktop\Projects\c#\entityframe\BankAccount\obj\Debug\netcoreapp2.0\BankAccount.dll
+C:\Users\shawn\Desktop\Projects\c#\entityframe\BankAccount\obj\Debug\netcoreapp2.0\BankAccount.pdb
+C:\Users\shawn\Desktop\Projects\c#\entityframe\BankAccount\obj\Debug\netcoreapp2.0\BankAccount.csprojResolveAssemblyReference.cache
